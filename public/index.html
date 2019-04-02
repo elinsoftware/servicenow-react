@@ -9,7 +9,9 @@
     -->
     <div style="display:none">
       <g:evaluate object="true"> 
+        var session = gs.getSession(); 
         var token = session.getSessionToken();
+        if (token=='' || token==undefined) token = gs.getSessionToken();
       </g:evaluate>
     </div>
     <!-- 

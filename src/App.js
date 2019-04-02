@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
   return (
     <div>
-      Hello, ServiceNow!
+      <h2>Hello, ServiceNow!</h2>
     </div>
   )
 }
