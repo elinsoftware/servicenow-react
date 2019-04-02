@@ -20,4 +20,15 @@ You need to complete 3 steps so you can start bulding a React applicaiton for Se
 ```
 
 This completes development environment setup and you can run the application by `npm start`.
-> User name and password required for development environment only, while you're building the application locally. You don't need to provide credentials when deploying the app into ServiceNow.
+
+> User name and password required for development environment only. You don't need to provide credentials when deploying the app into ServiceNow.
+
+## ServiceNow deployment
+To deploy the application into ServiceNow you need to perform the following steps:
+1. Build the applicaiton by executing `npm run build`.
+2. Save JS and CSS files from Build folder as _Style Sheets_ in ServiceNow.
+3. Save HTML file from Build folder as a UI page. Update references to JS/CSS correspondingly.
+
+You can find more details in [this article](https://medium.com/@pishchulin/react-application-in-servicenow-8bdbb1e69c0c).
+
+
